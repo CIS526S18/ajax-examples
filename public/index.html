@@ -1,0 +1,65 @@
+<!doctype html>
+<head>
+  <title>Ajax Examples</title>
+</head>
+<body>
+  <h1>AJAX examples</h1>
+  <p>
+    The following are examples of techniques to make
+    requests of a web server from JavaScript code
+    running in a client browser.
+  </p>
+
+  <h2>XMLHttp Request</h2>
+  <p>
+    The XmlHttpRequest is the original strategy to create
+    AJAX requests, and is supported nearly universally
+    web browsers. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest">
+      the MDN article
+    </a> for details.
+  </p>
+  <button id="make-xml-http-request">
+    Make Request
+  </button>
+  <ul id="xml-http-request-list">
+  </ul>
+
+  <h2>JQuery AJAX Request</h2>
+  <p>
+    The popular JQuery library wraps many core JavaScript library
+    features with simplified syntax and convenience functions,
+    including the creation and processing of AJAX requests.
+    See the <a href="https://api.jquery.com/category/ajax/">
+      JQuery documentation
+    </a> for details.
+  </p>
+  <button id="make-jquery-ajax-request">
+    Make Request
+  </button>
+  <ul id="jquery-ajax-request-list">
+  </ul>
+
+  <h2>Fetch API</h2>
+  <p>
+    The Fetch API is the newest standard for making
+    HTTP requests from JavaScript.  It utilizes Promises
+    to streamline the processing of AJAX requests.  See
+    the MDN documentation for the
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">
+      Fetch API
+    </a> and the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises">
+      Promises API
+    </a> for more details.
+  </p>
+  <button id="make-fetch-request">
+    Make Request
+  </button>
+  <ul id="fetch-request-list">
+  </ul>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="./ajax-examples.js"></script>
+</body>
